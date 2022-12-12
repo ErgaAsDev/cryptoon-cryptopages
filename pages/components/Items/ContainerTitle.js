@@ -11,7 +11,7 @@ const ContainerTitle = () => {
         ligula, eget suscipit orci.
       </h3>
       <Button variant="warning">GET STARTED</Button>
-      <Image src="/images/Icon-big.svg" width={700} height={700} className="position-absolute" id="big-icon"/>
+      <Image src="/images/Icon-big.svg" width={700} height={700} alt="" className="position-absolute" id="big-icon"/>
       {/* <Image src="/images/decoration-1.png" width={300} height={300} className="position-absolute" id="decoration-1"/> */}
     </div>
   );

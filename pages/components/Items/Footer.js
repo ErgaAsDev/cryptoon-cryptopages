@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="container text-light" id="footer">
         <hr></hr>
       <Navbar.Brand href="#home">
-        <Image src="/images/logoSmall.png" width={100} height={100} />
+        <Image alt="" src="/images/logoSmall.png" width={100} height={100} />
         <Navbar.Brand href="#home" className="text-light fs-2">
           <span id="text-span-1">Cryp</span>toon
         </Navbar.Brand>
@@ -75,7 +75,7 @@ const Footer = () => {
           <h6 className="fw-lighter">We don’t sell your email and spam</h6>
         </div>
       </div>
-      <h6 className="text-center fw-lighter fs-6" id="copyright">Copyright <span><Image src="/images/copyright.png" width={20} height={20} /></span> made by ErgaAsDev. All rights reserved.</h6>
+      <h6 className="text-center fw-lighter fs-6" id="copyright">Copyright <span><Image alt="" src="/images/copyright.png" width={20} height={20} /></span> made by ErgaAsDev. All rights reserved.</h6>
     </div>
   );
 };
