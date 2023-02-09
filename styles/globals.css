@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(172.47deg, #660080 0.99%, #160e33 66.37%);
+  background: linear-gradient(172.47deg, #660080 0.99%, #160e33 66.37%);
   background-repeat: no-repeat;
   background-size: cover;
   height: 3620px;
@@ -21,6 +21,15 @@ body {
     height: 3340px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    height: 3940px;
+  }
+}
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -33,7 +42,10 @@ li {
 ul {
   padding-left: 0px;
 }
-
+::placeholder {
+  color: white;
+  opacity: 0.7;
+}
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -114,6 +126,23 @@ ul {
   background: rgba(67, 104, 199, 0.12);
   border-radius: 25px;
   padding: 20px;
+}
+
+@media screen and (max-width: 505px) {
+  #crypto-column {
+    width: 424px;
+  }
+  #column-1,
+  #column-2,
+  #column-3,
+  #column-4,
+  #column-5 {
+    width: 400px ;
+    gap: 34px !important;
+  }
+  #brand-company {
+    width: 432px !important;
+  }
 }
 
 p {
@@ -220,7 +249,7 @@ p {
 }
 
 #row-footer {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #copyright {
@@ -231,4 +260,51 @@ p {
   #copyright {
     margin-top: 60px;
   }
+}
+
+/* LOGIN PAGE */
+#arrow-back{
+  width: 640px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+#login-page {
+  width: 640px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+#form-login{
+  width: 400px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 40px;
+  color: white;
+}
+
+#login-check{
+  width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  #arrow-back{
+    width: 460px;
+  }
+  #login-page {
+    width: 460px;
+  }
+}
+
+/* SIGNUP PAGE */
+#div-form-signup{
+  width: 400px;
+  justify-content: space-between;
+}
+#form-signup{
+  width: 190px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 40px;
+  color: white;
 }

@@ -20,24 +20,22 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" id="nav-link-1">
-            <Nav.Link href="#home" className="text-light">
+            <Link href="/" className="text-light">
               Dashboard
-            </Nav.Link>
-            <Nav.Link href="#link" className="text-light">
+            </Link>
+            <Link href="/" className="text-light">
               Products
-            </Nav.Link>
-            <Nav.Link href="#link" className="text-light">
+            </Link>
+            <Link href="/" className="text-light">
               Support
-            </Nav.Link>
-            <Nav.Link href="#link" className="text-light">
+            </Link>
+            <Link href="/" className="text-light">
               FAQ
-            </Nav.Link>
+            </Link>
           </Nav>
           <Nav id="nav-link-2">
-            <Nav.Link href="#deets" className="text-light">
-              SIGN IN
-            </Nav.Link>
-            <Link href="/">
+            <Link href="/routes/Login">SIGN IN</Link>
+            <Link href="/routes/SignUp">
               <Button variant="warning">REGISTER</Button>
             </Link>
           </Nav>

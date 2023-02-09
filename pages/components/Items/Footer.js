@@ -72,7 +72,7 @@ const Footer = () => {
               </Button>
             </Link>
           </InputGroup>
-          <h6 className="fw-lighter">We don’t sell your email and spam</h6>
+          <h6 className="fw-lighter">We don't sell your email and spam</h6>
         </div>
       </div>
       <h6 className="text-center fw-lighter fs-6" id="copyright">Copyright <span><Image alt="" src="/images/copyright.png" width={20} height={20} /></span> made by ErgaAsDev. All rights reserved.</h6>

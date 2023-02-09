@@ -15,7 +15,7 @@ const ContainerBody = () => {
         transfers or your credit/debit card.
       </h3>
       <div className="d-flex flex-column mt-5 gap-3" id="crypto-column">
-        <div className="d-flex flex-row gap-5">
+        <div className="d-flex flex-row gap-5" id="column-1">
           <p>Bitcoin</p>
           <p className="text-primary">BTC</p>
           <p>$56,290.30</p>
@@ -25,7 +25,7 @@ const ContainerBody = () => {
             <p>Trade Now</p>
           </Link>
         </div>
-        <div className="d-flex flex-row gap-5">
+        <div className="d-flex flex-row gap-5" id="column-2">
           <p>Ethereum</p>
           <p className="text-primary">ETH</p>
           <p>$4,284.81</p>
@@ -35,7 +35,7 @@ const ContainerBody = () => {
             <p>Trade Now</p>
           </Link>
         </div>
-        <div className="d-flex flex-row gap-5">
+        <div className="d-flex flex-row gap-5" id="column-3">
           <p>Cardano</p>
           <p className="text-primary">ADA</p>
           <p>$1.88</p>
@@ -45,7 +45,7 @@ const ContainerBody = () => {
             <p>Trade Now</p>
           </Link>
         </div>
-        <div className="d-flex flex-row gap-5">
+        <div className="d-flex flex-row gap-5" id="column-4">
           <p>Wax</p>
           <p className="text-primary">WAXP</p>
           <p>$0.97</p>
@@ -55,7 +55,7 @@ const ContainerBody = () => {
             <p>Trade Now</p>
           </Link>
         </div>
-        <div className="d-flex flex-row gap-5">
+        <div className="d-flex flex-row gap-5" id="column-5">
           <p>Polkadot</p>
           <p className="text-primary">DOT</p>
           <p>$42.22</p>
