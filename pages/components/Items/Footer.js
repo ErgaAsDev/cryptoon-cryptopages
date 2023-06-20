@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
@@ -10,7 +12,7 @@ const Footer = () => {
     <div className="container text-light" id="footer">
         <hr></hr>
       <Navbar.Brand href="#home">
-        <Image alt="" src="/images/logoSmall.png" width={100} height={100} />
+        <Image alt="images" src="/images/logoSmall.png" width={100} height={100} />
         <Navbar.Brand href="#home" className="text-light fs-2">
           <span id="text-span-1">Cryp</span>toon
         </Navbar.Brand>

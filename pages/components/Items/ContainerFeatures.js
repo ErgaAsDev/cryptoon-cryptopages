@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 const ContainerFeatures = () => {
@@ -13,7 +15,7 @@ const ContainerFeatures = () => {
       <div className="row mt-5" id="row-1">
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-1.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-1.png" width={40} height={40} />
             <h3>Weekly Trading Contest</h3>
           </div>
           <h5 className="fw-lighter">
@@ -23,7 +25,7 @@ const ContainerFeatures = () => {
         </div>
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-2.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-2.png" width={40} height={40} />
             <h3>Less Commission On Trade</h3>
           </div>
           <h5 className="fw-lighter">
@@ -33,7 +35,7 @@ const ContainerFeatures = () => {
         </div>
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-3.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-3.png" width={40} height={40} />
             <h3>Safe And Secure Trading platform</h3>
           </div>
           <h5 className="fw-lighter">
@@ -45,7 +47,7 @@ const ContainerFeatures = () => {
       <div className="row mt-5" id="row-2">
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-4.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-4.png" width={40} height={40} />
             <h3>Instant Withdraw Process</h3>
           </div>
           <h5 className="fw-lighter">
@@ -55,7 +57,7 @@ const ContainerFeatures = () => {
         </div>
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-5.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-5.png" width={40} height={40} />
             <h3>Monthly Commition</h3>
           </div>
           <h5 className="fw-lighter">
@@ -65,7 +67,7 @@ const ContainerFeatures = () => {
         </div>
         <div className="col" id="column">
           <div className="d-flex gap-2" id="flex-features">
-            <Image alt="" src="/images/feature-6.png" width={40} height={40} />
+            <Image alt="images" src="/images/feature-6.png" width={40} height={40} />
             <h3>24/7 Support Team</h3>
           </div>
           <h5 className="fw-lighter">

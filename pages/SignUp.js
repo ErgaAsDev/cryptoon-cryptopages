@@ -4,24 +4,24 @@ import Link from "next/link";
 
 const SignUp = () => {
   return (
-    <div className="container d-flex flex-column justify-content-center align-items-center">
+    <div className="container d-flex flex-column align-items-center" id="login-page">
       <Link href="/" id="arrow-back">
-        <Image src="/images/arrowback.png" alt="" width={40} height={35} />
+        <Image src="/images/arrowback.png" alt="images" width={40} height={35} />
       </Link>
       <div
         className="text-light d-flex flex-column justify-content-center align-items-center gap-3"
-        id="login-page"
+        id="login-container"
       >
         <h5>Create Your Account</h5>
         <div className="d-flex gap-3">
           <a href="facebook.com">
-            <Image src="/images/Facebook.png" alt="" width={120} height={30} />
+            <Image src="/images/Facebook.png" alt="images" width={120} height={30} />
           </a>
           <a href="twitter.com">
-            <Image src="/images/Twitter.png" alt="" width={120} height={30} />
+            <Image src="/images/Twitter.png" alt="images" width={120} height={30} />
           </a>
           <a href="google.com">
-            <Image src="/images/Google.png" alt="" width={120} height={30} />
+            <Image src="/images/Google.png" alt="images" width={120} height={30} />
           </a>
         </div>
         <h6>Or Register with email</h6>

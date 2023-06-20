@@ -3,22 +3,42 @@ import { Button } from "react-bootstrap";
 import Link from "next/link";
 const Login = () => {
   return (
-    <div className="container d-flex flex-column justify-content-center align-items-center" >
-        <Link href="/" id="arrow-back"><Image src="/images/arrowback.png" alt="" width={40} height={35} /></Link>
+    <div
+      className="container d-flex flex-column align-items-center"
+      id="login-page"
+    >
+      <Link href="/" id="arrow-back">
+        <Image src="/images/arrowback.png" alt="" width={40} height={35} />
+      </Link>
       <div
         className="text-light d-flex flex-column justify-content-center align-items-center gap-3"
-        id="login-page"
+        id="login-container"
       >
         <h5>Login to Your Account</h5>
         <div className="d-flex gap-3">
           <a href="facebook.com">
-            <Image src="/images/Facebook.png" alt="" width={120} height={30} />
+            <Image
+              src="/images/Facebook.png"
+              alt="images"
+              width={120}
+              height={30}
+            />
           </a>
           <a href="twitter.com">
-            <Image src="/images/Twitter.png" alt="" width={120} height={30} />
+            <Image
+              src="/images/Twitter.png"
+              alt="images"
+              width={120}
+              height={30}
+            />
           </a>
           <a href="google.com">
-            <Image src="/images/Google.png" alt="" width={120} height={30} />
+            <Image
+              src="/images/Google.png"
+              alt="images"
+              width={120}
+              height={30}
+            />
           </a>
         </div>
         <h6>Or Login with email</h6>
@@ -32,7 +52,14 @@ const Login = () => {
             Forgot Password
           </a>
         </div>
-        <Button variant="warning" className="mt-2">CONTINUE</Button>
+        <div className="d-flex gap-5">
+          <Button variant="warning" className="mt-2">
+            CONTINUE
+          </Button>
+          <Button variant="danger" className="mt-2" href="/Dashboard">
+            Use Demo Account
+          </Button>
+        </div>
       </div>
     </div>
   );
