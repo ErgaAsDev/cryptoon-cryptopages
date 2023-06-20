@@ -11,11 +11,11 @@ const Footer = () => {
   return (
     <div className="container text-light" id="footer">
         <hr></hr>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="#home" className="d-flex align-items-center">
         <Image alt="images" src="/images/logoSmall.png" width={100} height={100} />
-        <Navbar.Brand href="#home" className="text-light fs-2">
+        <div href="#home" className="text-light fs-2">
           <span id="text-span-1">Cryp</span>toon
-        </Navbar.Brand>
+        </div>
       </Navbar.Brand>
       <h4>Integer id orci sed ante tincidunt tincidunt sit amet sed libero.</h4>
       <div className="row" id="row-footer">

@@ -12,11 +12,11 @@ const NavBar = () => {
   return (
     <Navbar expand="lg">
       <Container className="text-light">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" className="d-flex align-items-center">
           <Image src="/images/logoSmall.png" width={70} height={70} alt="images" />
-          <Navbar.Brand href="#home" className="text-light">
+          <span href="#home" className="d-flex text-light">
             <span id="text-span-1">Cryp</span>toon
-          </Navbar.Brand>
+          </span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

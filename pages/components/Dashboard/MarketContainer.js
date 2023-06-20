@@ -408,6 +408,7 @@ const MarketContainer = () => {
                         name="flexRadioDefault"
                         id="flexRadioDefault1"
                         checked
+                        readOnly
                       />
                       <label
                         className="form-check-label"

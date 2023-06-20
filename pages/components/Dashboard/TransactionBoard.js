@@ -296,45 +296,7 @@ const TransactionBoard = () => {
                             <p className="fs-6">Sell</p>
                           </div>
                         </div>
-                        <select
-                          className="form-select mb-3"
-                          aria-label="Default select example"
-                        >
-                          <option selected>
-                            <a href="#" className="dropdown-item">
-                              <img
-                                src="../assets/images/coins/01.png"
-                                className="img-fluid avatar avatar-30 avatar-rounded"
-                                alt="img71"
-                              />
-                              561,511 Btc
-                            </a>
-                          </option>
-                          <option>
-                            <li>
-                              <a href="#" className="dropdown-item">
-                                <img
-                                  src="../assets/images/coins/01.png"
-                                  className="img-fluid avatar avatar-30 avatar-rounded"
-                                  alt="img71"
-                                />
-                                561,511 Btc
-                              </a>
-                            </li>
-                          </option>
-                          <option>
-                            <li>
-                              <a href="#" className="dropdown-item">
-                                <img
-                                  src="../assets/images/coins/06.png"
-                                  className="img-fluid avatar avatar-30 avatar-rounded"
-                                  alt="img72"
-                                />
-                                561,511 Ltc
-                              </a>
-                            </li>
-                          </option>
-                        </select>
+                        
                         <div className="d-flex justify-content-between">
                           <h6>Amount(USD)</h6>
                           <h6 className="mt-3 text-warning">USD</h6>
