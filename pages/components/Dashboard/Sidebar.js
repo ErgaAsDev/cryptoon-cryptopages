@@ -92,9 +92,9 @@ const Sidebar = ({
                   data-bs-toggle="collapse"
                 //   href="#sidebar-user"
                   role="button"
-                  aria-expanded={`${
-                    toggleUser || userProfileIsActive ? `true` : `false`
-                  }`}
+                //   aria-expanded={`${
+                //     toggleUser || userProfileIsActive ? `true` : `false`
+                //   }`}
                   aria-controls="sidebar-user"
                 >
                   <i className="icon">
