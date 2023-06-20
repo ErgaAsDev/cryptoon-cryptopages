@@ -18,10 +18,10 @@ const Sidebar = ({
       >
         <div className="sidebar-header d-flex align-items-center justify-content-start">
           <a
-            href="#"
+            href="/"
             className="navbar-brand dis-none align-items-center justify-content-center"
           >
-            <Image
+            <img
               src="/images/logoSmall.png"
               width={50}
               height={50}
