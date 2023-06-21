@@ -73,7 +73,7 @@ const SignUp = () => {
             <Image
               src="/images/Facebook.png"
               alt="images"
-              width={120}
+              width={100}
               height={30}
             />
           </a>
@@ -81,7 +81,7 @@ const SignUp = () => {
             <Image
               src="/images/Twitter.png"
               alt="images"
-              width={120}
+              width={100}
               height={30}
             />
           </a>
@@ -89,7 +89,7 @@ const SignUp = () => {
             <Image
               src="/images/Google.png"
               alt="images"
-              width={120}
+              width={100}
               height={30}
             />
           </a>
