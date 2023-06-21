@@ -17,7 +17,7 @@ const ContainerBody = () => {
         transfers or your credit/debit card.
       </h3>
       <div className="d-flex flex-column mt-5 gap-3 align-items-center" id="crypto-column">
-        <div className="d-flex gap-3" id="column-1">
+        <div className="d-flex" id="column-1">
           <div className="d-flex flex-column gap-3 justify-content-between" id="currency">
             <div>Bitcoin</div>
             <div>Ethereum</div>

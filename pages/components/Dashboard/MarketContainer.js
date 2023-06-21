@@ -502,11 +502,10 @@ const MarketContainer = () => {
                 </ul>
               </div>
               <div className="card-body">
-                <Image
+                <img
                   src="/images/Stock.png"
                   alt="stock"
-                  width={700}
-                  height={300}
+                  id="stock-candlechart"
                 />
               </div>
             </div>

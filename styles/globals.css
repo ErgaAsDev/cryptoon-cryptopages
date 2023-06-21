@@ -125,17 +125,26 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 440px) {
   #column-1{
-    width: 400px;
-    gap: 0 !important;
+    width: 300px;
+    gap: 10px;
+    justify-content: center;
   }
   #brand-company {
     width: 432px !important;
   }
+  
+}
+@media screen and (max-width: 605px) {
+  #column-1{
+    width: 400px;
+  }
+  #brand-company {
+    width: 400px !important;
+  }
   #crypto-column {
-    width: 90vw !important;
+    width: 95vw !important;
   }
   #graph img {
     width: 60px;
@@ -326,6 +335,23 @@ p {
   height: 40px;
   color: white;
 }
+
+#stock-candlechart {
+  width: 45vw;
+}
+
+@media (max-width: 1000px) {
+  #stock-candlechart {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 420px) {
+  #stock-candlechart {
+    width: 65vw;
+  }
+}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @media (max-width: 1199.98px) {
