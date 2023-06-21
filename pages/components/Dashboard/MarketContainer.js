@@ -1,8 +1,8 @@
 import React from "react";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
+import Image from "next/image";
 
-
-const ApexChart = dynamic(() => import("./ApexChart"), { ssr: false });
+// const ApexChart = dynamic(() => import("./ApexChart"), { ssr: false });
 
 const MarketContainer = () => {
   return (
@@ -505,7 +505,13 @@ const MarketContainer = () => {
                 </ul>
               </div>
               <div className="card-body">
-                <ApexChart />
+                {/* <ApexChart /> */}
+                <Image
+                  src="/images/Stock.png"
+                  alt="stock"
+                  width={700}
+                  height={300}
+                />
               </div>
             </div>
           </div>
