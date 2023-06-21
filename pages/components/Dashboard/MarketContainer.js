@@ -2,7 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 
 
-const ApexChart = dynamic(import("./ApexChart"), { ssr: false });
+const ApexChart = dynamic(() => import("./ApexChart"), { ssr: false });
 
 const MarketContainer = () => {
   return (
