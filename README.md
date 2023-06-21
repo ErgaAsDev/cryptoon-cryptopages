@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Created cryptocurreny landing page, registration page with Telegram API and user dashboard.
+
+Tech Stack : Next, Bootstrap 5.
+
 ## Getting Started
 
 First, run the development server:
