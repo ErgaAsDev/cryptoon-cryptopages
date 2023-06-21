@@ -272,12 +272,14 @@ class ApexChart extends React.Component {
   render() {
     return (
       <div id="chart">
-        <Chart
-          options={this.state.options}
-          series={this.state.series}
-          type="candlestick"
-          height={350}
-        />
+        {typeof window !== "undefined" && (
+          <Chart
+            options={this.state.options}
+            series={this.state.series}
+            type="candlestick"
+            height={350}
+          />
+        )}
       </div>
     );
   }
