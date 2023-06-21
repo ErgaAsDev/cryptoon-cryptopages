@@ -61,6 +61,7 @@ const Login = () => {
           </Button>
         </div>
       </div>
+      <img src="/images/logoSmall.png" alt="logo" id="decoration" />
     </div>
   );
 };

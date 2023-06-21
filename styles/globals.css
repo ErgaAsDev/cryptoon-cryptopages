@@ -117,7 +117,7 @@ ul {
   background: rgba(67, 104, 199, 0.12);
   border-radius: 25px;
   padding: 20px;
-  width: 45vw;
+  width: 50vw;
 }
 
 #column-1 {
@@ -305,6 +305,13 @@ p {
   #login-container {
     width: 460px;
   }
+}
+
+#decoration {
+  position: absolute;
+  width: 240px;
+  left: -80px;
+  top: -40px;
 }
 
 /* SIGNUP PAGE */
@@ -6480,7 +6487,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #19191a;
+  background-color: #33145C;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
