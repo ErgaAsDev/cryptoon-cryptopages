@@ -73,6 +73,9 @@ ul {
   top: 240px;
   left: -200px;
 }
+#text-title-2 {
+  font-weight: 400;
+}
 @media screen and (max-width: 1000px) {
   #nav-link-1,
   #nav-link-2 {
@@ -114,37 +117,35 @@ ul {
   background: rgba(67, 104, 199, 0.12);
   border-radius: 25px;
   padding: 20px;
-  width: 50vw;
+  width: 45vw;
 }
 
-#crypto-column p {
-  padding-right: 10px;
+#column-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-#column-1,
-  #column-2,
-  #column-3,
-  #column-4,
-  #column-5 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-@media screen and (max-width: 505px) {
-  #crypto-column {
-    width: 424px;
-  }
-  #column-1,
-  #column-2,
-  #column-3,
-  #column-4,
-  #column-5 {
+@media screen and (max-width: 605px) {
+  #column-1{
     width: 400px;
-    gap: 34px !important;
+    gap: 0 !important;
   }
   #brand-company {
     width: 432px !important;
+  }
+  #crypto-column {
+    width: 90vw !important;
+  }
+  #graph img {
+    width: 60px;
+  }
+  #currency div,
+  #symbol div, 
+  #price div,
+  #fluctuate div,
+  #trade a {
+    font-size: 12px;
   }
 }
 
@@ -165,6 +166,7 @@ p {
   #container-body {
     margin-top: 400px;
   }
+  
 }
 @media screen and (max-width: 1200px) {
   #brand-company {
@@ -185,6 +187,9 @@ p {
     left: -50px;
     width: 150px;
     height: 150px;
+  }
+  #crypto-column {
+    width: 80vw;
   }
 }
 
@@ -431,8 +436,6 @@ h1,
 .h1,
 h2,
 .h2,
-h3,
-.h3,
 h4,
 .h4,
 h5,
@@ -583,7 +586,6 @@ sub {
 sup {
   top: -0.5em;
 }
-
 
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -5381,6 +5383,7 @@ fieldset:disabled .btn {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.5rem 1.5rem;
+  width: 100%;
 }
 
 .card-title {
@@ -15342,7 +15345,7 @@ body.offcanvas-active {
   bottom: 0;
   z-index: 910;
   transition: all 400ms ease;
-  background-color: #33145C;
+  background-color: #33145c;
   box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.35);
 }
 .sidebar .navbar-brand {

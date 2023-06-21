@@ -33,7 +33,7 @@ const Dashboard = () => {
         handleUserActive={handleUserActive}
       />
       <main className="main-content">
-        <Navbar />
+        <Navbar toggle={toggle} handleSidebarToggle={handleSidebarToggle} />
         {userProfileIsActive ? <UserProfile /> : <MainDashboard />}
       </main>
     </div>

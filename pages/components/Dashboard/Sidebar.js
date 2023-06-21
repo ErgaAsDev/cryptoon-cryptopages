@@ -9,6 +9,7 @@ const Sidebar = ({
   userProfileIsActive,
   handleUserActive,
 }) => {
+  console.log(toggle);
   return (
     <>
       <aside
@@ -90,11 +91,11 @@ const Sidebar = ({
                 <a
                   className={`nav-link ${!toggleUser ? `collapsed` : ""}`}
                   data-bs-toggle="collapse"
-                //   href="#sidebar-user"
+                  //   href="#sidebar-user"
                   role="button"
-                //   aria-expanded={`${
-                //     toggleUser || userProfileIsActive ? `true` : `false`
-                //   }`}
+                  //   aria-expanded={`${
+                  //     toggleUser || userProfileIsActive ? `true` : `false`
+                  //   }`}
                   aria-controls="sidebar-user"
                 >
                   <i className="icon">
@@ -143,7 +144,9 @@ const Sidebar = ({
                   </i>
                 </a>
                 <ul
-                  className={`sub-nav collapse ${toggleUser ? `show` : userProfileIsActive ? `show` : ''}`}
+                  className={`sub-nav collapse ${
+                    toggleUser ? `show` : userProfileIsActive ? `show` : ""
+                  }`}
                   id="sidebar-user"
                   data-bs-parent="#sidebar"
                 >

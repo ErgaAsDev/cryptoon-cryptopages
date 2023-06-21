@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ toggle, handleSidebarToggle }) => {
   return (
     <div className="position-relative">
       <nav className="nav navbar navbar-expand-lg navbar-light iq-navbar border-bottom">
@@ -12,6 +12,7 @@ const Navbar = () => {
             className="sidebar-toggle"
             data-toggle="sidebar"
             data-active="true"
+            onClick={handleSidebarToggle}
           >
             <i className="icon">
               <svg width="20px" height="20px" viewBox="0 0 24 24">

@@ -1,4 +1,8 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import { CandleStickChart } from "./CandleStickChart";
+
+const ApexChart = dynamic(import("./ApexChart"), { ssr: false });
 
 const MarketContainer = () => {
   return (
@@ -501,7 +505,7 @@ const MarketContainer = () => {
                 </ul>
               </div>
               <div className="card-body">
-                <div id="apex-candlestick-chart"></div>
+                <ApexChart />
               </div>
             </div>
           </div>
