@@ -9,6 +9,7 @@ const Login = () => {
     >
       <Link href="/" id="arrow-back">
         <Image src="/images/arrowback.png" alt="" width={40} height={35} />
+        <span>Back</span>
       </Link>
       <div
         className="text-light d-flex flex-column justify-content-center align-items-center gap-3"

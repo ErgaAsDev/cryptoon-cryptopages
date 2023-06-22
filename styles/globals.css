@@ -57,6 +57,12 @@ ul {
   gap: 32px;
 }
 
+#nav-link-1 a:hover,
+#nav-link-2 a:hover {
+  color: var(--bs-yellow) !important;
+}
+
+
 #text-span-1 {
   color: #ffa000;
 }
@@ -286,6 +292,10 @@ p {
   margin-bottom: 30px;
   z-index: 10;
 }
+#arrow-back:hover {
+  color: var(--bs-yellow) !important;
+}
+
 #login-container {
   width: 540px;
   padding: 20px;
